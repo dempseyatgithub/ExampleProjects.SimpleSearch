@@ -12,7 +12,7 @@ Branches that extend the main branch to add additional features will be named to
 Branches that demonstrate an issue in a Feedback report will be named for the Feedback ID.
 
 ### Feedback Branches
-None yet
+`FB13057193` SwiftUI macOS: .searchable modifier does not work in MenuBarExtra scene
 
 ### Feature Branches
 None yet
