@@ -23,5 +23,12 @@ struct SimpleSearchApp: App {
                 case .navigationStack: ContentViewNav()
             }
         }
+        MenuBarExtra("StateNameSearch", systemImage: "globe.americas.fill") {
+            switch(contentViewStyle) {
+                case .list: ContentView()
+                case .navigationStack: ContentViewNav()
+            }
+        }
+        .menuBarExtraStyle(.window)
     }
 }
